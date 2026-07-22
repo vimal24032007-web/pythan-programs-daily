@@ -1,0 +1,11 @@
+import math
+
+n = int(input("Enter a number: "))
+
+root = int(math.sqrt(n))
+
+if root * root == n:
+    print("Perfect Square")
+else:
+    print("Not a Perfect Square")
+# perfect square
